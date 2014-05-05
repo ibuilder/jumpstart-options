@@ -1,0 +1,88 @@
+
+
+.browser-feedback{	
+	font-family: 'Noto Sans', sans-serif;
+	position: fixed;	
+	font-size: 16px;
+	font-weight: bold;
+	background: #002654;
+	z-index: 1000000;
+	left: 0;
+	right: 0;
+}
+
+div.fullScreen{
+	top: 0;
+	bottom 0;
+	height: 100%;
+	padding: 100px 0;
+}
+
+div.header{
+	padding: 10px 0;
+	top: 0;
+}
+
+div.footer{
+	bottom: 0;
+	padding: 10px 0;
+}
+
+.browser-feedback h3,
+.browser-feedback p,
+.browser-feedback .message{
+	width: 960px;
+	margin: 0 auto;
+}	
+
+.browser-feedback h3{
+	font-size: 25px;
+	color: #fff;
+	letter-spacing: -1px;
+}	
+
+.browser-feedback p,
+.browser-feedback .message,
+.browser-feedback a{
+	font-size: 14px;
+	color: #fff;
+	line-height: 2.5;
+}
+
+.buttons{
+	padding-top: 20px;
+	text-align: center;
+}
+
+.buttons a{
+	color: #fff;
+	font-size: 16px;
+	padding: 10px 15px;
+	*padding: 0 15px;
+	text-decoration: underline;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', endColorstr='#005700',GradientType=0 );
+	filter:alpha(opacity=75);
+	opacity: 0.75;
+	zoom: 1;
+	margin-right: 20px;
+}
+
+.buttons a:hover{
+	color: #f0f0f0;
+	text-decoration: none;
+}	
+
+.buttons a.upgrade{
+	background: #fff;
+	color: #333;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-bottom: 3px solid #333;
+}
+
+.buttons a.upgrade:hover{
+	background: #333;
+	color: #fff;
+}
+
+
